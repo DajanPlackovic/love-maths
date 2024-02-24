@@ -13,34 +13,25 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 })
 
-runGame()
-{
+/**
+ * The main game "loop", called when the script is first loaded
+ * and after the user's answer has been processed
+ */
+function runGame() {
+  let num1 = Math.floor(Math.random() * 25) + 1
+  let num2 = Math.floor(Math.random() * 25) + 1
 }
 
-checkAnswer()
-{
-}
+function checkAnswer() {}
 
-calculateCorrectAnswer()
-{
-}
+function calculateCorrectAnswer() {}
 
-incrementScore()
-{
-}
+function incrementScore() {}
 
-incrementWrongAnswer()
-{
-}
+function incrementWrongAnswer() {}
 
-displayAdditionQuestion()
-{
-}
+function displayAdditionQuestion() {}
 
-displaySubtractQuestion()
-{
-}
+function displaySubtractQuestion() {}
 
-displayMultiplyQuestion()
-{
-}
+function displayMultiplyQuestion() {}
